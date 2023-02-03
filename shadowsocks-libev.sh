@@ -254,8 +254,8 @@ pre_install(){
 
     # Set shadowsocks-libev config password
     echo "Please enter password for shadowsocks-libev:"
-    read -p "(Default password: teddysun.com):" shadowsockspwd
-    [ -z "${shadowsockspwd}" ] && shadowsockspwd="teddysun.com"
+    read -p "(Default password: JsSr5Q3aV6BPVCgW5asQUGjcgQDTGz9C):" shadowsockspwd
+    [ -z "${shadowsockspwd}" ] && shadowsockspwd="JsSr5Q3aV6BPVCgW5asQUGjcgQDTGz9C"
     echo
     echo "---------------------------"
     echo "password = ${shadowsockspwd}"
@@ -467,7 +467,7 @@ install_shadowsocks(){
         fi
     else
         echo
-        echo -e "[${red}Error${plain}] Shadowsocks-libev install failed. please visit https://teddysun.com/357.html and contact."
+        echo -e "[${red}Error${plain}] Shadowsocks-libev install failed. please visit https://github.com/Drliehuo/shadowsocks and contact."
         exit 1
     fi
 
